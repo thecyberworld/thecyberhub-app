@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 .expo/
 dist/
 npm-debug.*
@@ -12,3 +12,4 @@ web-build/
 
 # macOS
 .DS_Store
+.idea

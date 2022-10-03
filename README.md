@@ -15,7 +15,7 @@ Before installation, please make sure you have already installed the following t
 1. Fork the project
 2. Clone the forked project
 3. Navigate to the cloned project directory
-4. Install the dependencies with `npm install `--legacy-peer-deps``
+4. Install the dependencies with `npm install --legacy-peer-deps`
 5. Run `npm start` to start the server
 6. Scan the QR code with the expo app to view the app on your android device
 

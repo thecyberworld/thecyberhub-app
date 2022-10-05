@@ -4,19 +4,20 @@ import * as Typography from '../styles/typography';
 import * as Spacing from '../styles/spacing';
 import { Video } from 'expo-av';
 
-const poster = require('../assets/icon.png');
 export default function HomeScreen({ navigation }) {
   return (
     <>
       <Video
-        style={{ flex: 1, position: 'relative' }}
+        style={{
+          flex: 1,
+          position: 'relative',
+        }}
         source={{ uri: 'https://imgur.com/Q8km3ih.mp4' }}
         shouldPlay={true}
         isLooping={true}
         isMuted={true}
-        resizeMode="stretch"
+        resizeMode="cover"
         usePoster={true}
-        posterSource={poster}
       />
       <View
         style={{
@@ -26,6 +27,7 @@ export default function HomeScreen({ navigation }) {
           position: 'absolute',
           justifyContent: 'center',
           alignItems: 'center',
+          zIndex: 39,
         }}
       >
         <Text

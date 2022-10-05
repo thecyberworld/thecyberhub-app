@@ -30,7 +30,7 @@ export default function HomeScreen({ navigation }) {
           zIndex: 39,
         }}
       >
-        <Text
+        <Text 
           style={{
             ...Typography.largeTitleEmphasized,
             color: Colors.greyLightest,

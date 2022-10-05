@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-
+import Colors from '../styles/colors';
 // Screens
 import HomeScreen from '../screens/HomeScreen';
 import DetailsScreen from '../screens/DetailsScreen';
@@ -36,10 +36,14 @@ export default function MainContainer() {
           },
         })}
         tabBarOptions={{
-          activeTintColor: 'tomato',
-          inactiveTintColor: 'grey',
+          activeTintColor: Colors.primary,
+          inactiveTintColor: Colors.primaryLightest,
           labelStyle: { paddingBottom: 10, fontSize: 10 },
-          style: { padding: 10, height: 70 },
+          style: {
+            backgroundColor: Colors.greyDarkest,
+            padding: 10,
+            height: 70,
+          },
         }}
       >
         <Tab.Screen name={homeName} component={HomeScreen} />

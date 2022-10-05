@@ -9,7 +9,7 @@ export default function HomeScreen({ navigation }) {
   return (
     <>
       <Video
-        style={{ flex: 1, position: 'fixed' }}
+        style={{ flex: 1, position: 'relative' }}
         source={{ uri: 'https://imgur.com/Q8km3ih.mp4' }}
         shouldPlay={true}
         isLooping={true}
@@ -22,6 +22,7 @@ export default function HomeScreen({ navigation }) {
         style={{
           flex: 0,
           top: '30%',
+          padding: Spacing.m,
           position: 'absolute',
           justifyContent: 'center',
           alignItems: 'center',
@@ -42,7 +43,8 @@ export default function HomeScreen({ navigation }) {
             ...Typography.bodyEmphasized,
             color: Colors.primaryLightest,
             textAlign: 'center',
-            marginBottom: Spacing.l,
+            padding: Spacing.m,    
+            marginBottom: Spacing.m,
           }}
         >
           Cyber Security is a field that is growing at an exponential rate.

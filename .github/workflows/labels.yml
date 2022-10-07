@@ -17,4 +17,9 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         owner-name: 'Thecyberworld'
-        repository-name: 'thecyberhub-app'
+        repository-name: 'ThecyberX'
+    - uses: thecyberworld/gh-action-labels@main
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        owner-name: 'Thecyberworld'
+        repository-name: 'thecyberbot-discord'

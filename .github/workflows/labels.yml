@@ -14,7 +14,8 @@ jobs:
       with:
         node-version: '14'
     - uses: thecyberworld/gh-action-labels@main
+    - uses: thecyberworld/gh-action-labels@main
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         owner-name: 'Thecyberworld'
-        repository-name: 'gh-action-labels'
+        repository-name: 'thecyberhub-app'

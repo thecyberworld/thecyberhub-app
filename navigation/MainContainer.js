@@ -4,12 +4,14 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import Colors from '../styles/colors';
 // Screens
 import HomeScreen from '../screens/HomeScreen';
-import DetailsScreen from '../screens/DetailsScreen';
+// import DetailsScreen from '../screens/DetailsScreen';
+import EventsScreen from '../screens/EventsScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 //Screen names
 const homeName = 'Home';
-const detailsName = 'Details';
+// const detailsName = 'Details';
+const eventsName = 'Events'
 const settingsName = 'Settings';
 
 const Tab = createBottomTabNavigator();
@@ -26,9 +28,14 @@ export default function MainContainer() {
 
             if (rn === homeName) {
               iconName = focused ? 'home' : 'home-outline';
-            } else if (rn === detailsName) {
+            } 
+            // else if (rn === detailsName) {
+            //   iconName = focused ? 'list' : 'list-outline';
+            // }  
+            else if (rn === eventsName) {
               iconName = focused ? 'list' : 'list-outline';
-            } else if (rn === settingsName) {
+            }
+            else if (rn === settingsName) {
               iconName = focused ? 'settings' : 'settings-outline';
             }
 
@@ -47,8 +54,10 @@ export default function MainContainer() {
         }}
       >
         <Tab.Screen name={homeName} component={HomeScreen} />
-        <Tab.Screen name={detailsName} component={DetailsScreen} />
+        {/* <Tab.Screen name={detailsName} component={DetailsScreen} /> */}
+        <Tab.Screen name={eventsName} component={EventsScreen} />
         <Tab.Screen name={settingsName} component={SettingsScreen} />
+
       </Tab.Navigator>
     </NavigationContainer>
   );

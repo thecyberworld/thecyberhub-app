@@ -1,6 +1,6 @@
 name: Import standard labels
 
-on: [workflow_dispatch]]
+on: [workflow_dispatch]
 
 jobs:
   labels:

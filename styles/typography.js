@@ -33,3 +33,11 @@ export const subhead = {
   fontSize: 15,
   lineHeight: 20,
 };
+
+
+export const title = {
+  ...base,
+  fontSize: 25,
+  lineHeight: 29,
+};
+

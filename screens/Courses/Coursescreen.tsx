@@ -1,4 +1,3 @@
-import { auto } from "@popperjs/core";
 import React from "react";
 import { Text, View, Image, FlatList, TouchableHighlight } from "react-native";
 import * as Typography from "../../styles/typography";

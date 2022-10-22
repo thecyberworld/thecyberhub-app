@@ -10,6 +10,7 @@ import React, { useRef, useState } from "react";
 //@ts-ignore
 import Icon from "react-native-vector-icons/Fontisto"; //@ts-ignore
 import Icons from "react-native-vector-icons/Feather";
+import Iconn from 'react-native-vector-icons/EvilIcons'
 import * as Linking from "expo-linking";
 
 
@@ -26,6 +27,7 @@ const Community = () => {
         </Text>
       </View>
     );
+
   };
   return (
     <View
@@ -33,9 +35,10 @@ const Community = () => {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#000",
+        backgroundColor: "#181818",
       }}>
-    {header()}
+      {header()}
+
 
       <Image
         style={{
@@ -43,25 +46,25 @@ const Community = () => {
           justifyContent: "center",
           opacity: 0.2,
           resizeMode: "contain",
-          width: "100%",
-          top: 40,
+          width: "70%",
+          top: -100,
         }}
         source={require("../../assets/thecyberworld-green01.png")}
       />
-      <View style={{ position: "absolute", zIndex: 1 }}>
+      <View style={{ position: "absolute", zIndex: 1, top: 180 }}>
         <Text
           style={{
             color: "white",
             fontSize: 25,
-            lineHeight: 26,
+            lineHeight: 25,
             textAlign: "center",
-            fontWeight: "500",
+            fontWeight: "700",
           }}>
           Loved by thousands of hackers
         </Text>
-        <View style={{ flex: 1, padding: 15 }}>
+        <View style={{ flex: 1, padding: 10 }}>
           <Text
-            style={{ color: "snow", textAlign: "center", fontWeight: "300" }}>
+            style={{ color: "#BFBFBF", textAlign: "center", fontWeight: "300", fontSize: 17 }}>
             Community's goal is to help new folks to get started with
             open-source and cyber-security. We build open-source projects for
             hackers and developers
@@ -90,60 +93,67 @@ const Community = () => {
               Linking.openURL("https://discord.com/invite/QHBPq6xP5p");
             }}
           >
-            <Icon name="discord" size={28} color="#7289DA" />
+            <Icon name="discord" size={28} color={"#1da1f2"} />
 
             <Text style={{ color: "white", marginLeft: 5 }}>
               Join Our Discord Channel
             </Text>
           </TouchableOpacity>
         </View>
-      </View>
-      {showView ? (
-        <View
-          style={{
-            alignSelf: "flex-end",
-            padding: 35,
-            bottom: 50,
-            zIndex: 0,
-            position: "absolute",
+        <View style={{ flex: 1, top: 20, alignSelf: "center", flexDirection: "row" }}>
+          <Icons name="twitter" size={30} color={'#F5F5DC'} onPress={() => {
+            Linking.openURL("https://twitter.com/thecyberw0rld");
+          }} style={{ padding: 15 }} />
+          <Icons name="github" size={30} color={'#F5F5DC'}   onPress={() => {
+            Linking.openURL("https://github.com/thecyberworld");
+          }} style={{ padding: 15 }} />
+          <Iconn name="sc-telegram" size={40} color={'#F5F5DC'}  onPress={() => {
+            Linking.openURL("https://t.me/s/thecyberw0rld");
+          }} style={{ padding: 15 }} />
+          <Icons name="instagram" size={30} color={'#F5F5DC'} onPress={() => {
+            Linking.openURL("https://www.instagram.com/thecyberw0rld/");
+          }} style={{ padding: 15 }} />
 
-
-          }}>
-          <TouchableOpacity style={{ paddingBottom: 15 }}
-            onPress={() => {
-              Linking.openURL("https://github.com/thecyberworld");
-            }}
-
-          >
-            <Icons name="github" size={30} color="snow" />
-          </TouchableOpacity>
-          <TouchableOpacity style={{ paddingBottom: 15 }}
-
-            onPress={() => {
-              Linking.openURL("https://twitter.com/thecyberw0rld");
-            }}
-          >
-            <Icons name="twitter" size={30} color="snow" />
-          </TouchableOpacity>
-          <TouchableOpacity style={{}}
-            onPress={() => {
-              Linking.openURL("https://www.instagram.com/thecyberw0rld/");
-            }}
-          >
-            <Icons name="instagram" size={30} color="snow" />
-          </TouchableOpacity>
         </View>
-      ) : null}
+      </View>
 
-      <View style={{ alignSelf: "flex-end", padding: 30 }}>
-
-        <TouchableOpacity
-          style={{ padding: 8, backgroundColor: "gray", borderRadius: 60 }}
+      <View
+        style={{
+          padding: 35,
+          top: 20,
+          width: "100%"
+        }}>
+        <Text style={{ color: "white", textAlign: "center", fontSize: 23, }}>Join our Community</Text>
+        <Text></Text>
+        <TouchableOpacity style={{ padding: 10, backgroundColor: "#1A2421", width: "100%", borderRadius: 7 }}
           onPress={() => {
-            setShowView(!showView);
-          }}>
-          <Icons name="plus" size={30} color="snow" />
+            Linking.openURL("https://www.youtube.com/c/thecyberworld");
+          }}
+        >
+          <View style={{ flexDirection: "row", alignItems: "center" }}>
+
+            <Icons name="youtube" size={30} color="white" />
+            <Text style={{ fontSize: 18, color: "white", fontWeight: "500", marginLeft: "30%" }}>YouTube</Text>
+          </View>
+
         </TouchableOpacity>
+        <Text></Text>
+        <TouchableOpacity style={{ padding: 10, backgroundColor: "#1A2421", width: "100%", borderRadius: 7 }}
+
+          onPress={() => {
+            Linking.openURL("https://www.thecyberhub.org/");
+          }}
+        >
+          <View style={{ flexDirection: "row", alignItems: "center" }}>
+
+            <Image
+              source={require('../../assets/thecyberworld-green01.png')}
+              style={{ height: 35, width: 35, }}
+            />
+            <Text style={{ fontSize: 18, color: "white", fontWeight: "500", marginLeft: "20%", }}>Thecyberhub.org</Text>
+          </View>
+        </TouchableOpacity>
+        <Text></Text>
       </View>
     </View>
   );
@@ -153,37 +163,3 @@ export default Community;
 
 
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  fadingContainer: {
-    padding: 20,
-    backgroundColor: 'powderblue',
-  },
-  fadingText: {
-    fontSize: 28,
-  },
-  buttonRow: {
-    flexBasis: 100,
-    justifyContent: 'space-evenly',
-    marginVertical: 16,
-  },
-  circle: {
-    width: 100,
-    height: 100,
-    borderRadius: 50,
-    marginBottom: 100,
-    backgroundColor: 'red'
-  },
-  button: {
-    height: 50,
-    width: 150,
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderRadius: 25,
-    marginBottom: 10
-  }
-});

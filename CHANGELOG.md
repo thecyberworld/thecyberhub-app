@@ -1,4 +1,13 @@
-## 1.0.1 (2022-10-19)
+## [1.0.2](https://github.com/thecyberworld/thecyberhub-app/compare/v1.0.1...v1.0.2) (2022-10-22)
+
+
+### Bug Fixes
+
+* upgrade multiple dependencies with Snyk ([#28](https://github.com/thecyberworld/thecyberhub-app/issues/28)) ([95b9029](https://github.com/thecyberworld/thecyberhub-app/commit/95b9029b0c0ffd50d3c7fd6d4f82214f4ddd8a72))
+
+
+
+## [1.0.1](https://github.com/thecyberworld/thecyberhub-app/compare/1010bd78383e8c944896b3d1edca6b3110bdd314...v1.0.1) (2022-10-19)
 
 
 ### Bug Fixes

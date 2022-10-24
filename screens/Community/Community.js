@@ -80,6 +80,7 @@ const Community = () => {
           }}>
           <TouchableOpacity
             style={{
+                width: "60%",
               flexDirection: "row",
               borderColor: "#5663F7",
               backgroundColor: "#5663F7",
@@ -93,7 +94,7 @@ const Community = () => {
               Linking.openURL("https://discord.com/invite/QHBPq6xP5p");
             }}
           >
-            <Icon name="discord" size={28} color={"#1da1f2"} />
+            <Icon name="discord" size={28} color={"white"} />
 
             <Text style={{ color: "white", marginLeft: 5 }}>
               Join Our Discord Channel

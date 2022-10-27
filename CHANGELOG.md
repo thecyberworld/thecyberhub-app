@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.1.0...v1.2.0) (2022-10-27)
+
+
+### Features
+
+* upgrade @react-navigation/bottom-tabs from 5.11.15 to 6.4.0 ([#38](https://github.com/thecyberworld/thecyberhub-app/issues/38)) ([81da6bc](https://github.com/thecyberworld/thecyberhub-app/commit/81da6bc46dbd75cb785cdefcf48233435f954929))
+
+
+
 # [1.1.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.0.1...v1.1.0) (2022-10-24)
 
 

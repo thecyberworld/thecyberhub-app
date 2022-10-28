@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.2.0...v1.3.0) (2022-10-28)
+
+
+### Features
+
+* upgrade @react-navigation/stack from 5.14.9 to 6.3.2 ([#39](https://github.com/thecyberworld/thecyberhub-app/issues/39)) ([6efa219](https://github.com/thecyberworld/thecyberhub-app/commit/6efa219160632a9d409eae4b40f48f3b8c232907))
+
+
+
 # [1.2.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.1.0...v1.2.0) (2022-10-27)
 
 

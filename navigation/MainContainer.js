@@ -7,12 +7,14 @@ import HomeScreen from '../screens/HomeScreen';
 // import DetailsScreen from '../screens/DetailsScreen';
 import EventsScreen from '../screens/EventsScreen';
 import SettingsScreen from '../screens/SettingsScreen';
+import JobsScreen from "../screens/JobsScreen";
 
 //Screen names
 const homeName = 'Home';
 // const detailsName = 'Details';
 const eventsName = 'Events'
 const settingsName = 'Settings';
+const jobsName = 'Jobs';
 
 const Tab = createBottomTabNavigator();
 
@@ -37,6 +39,8 @@ export default function MainContainer() {
             }
             else if (rn === settingsName) {
               iconName = focused ? 'settings' : 'settings-outline';
+            } else if (rn === jobsName) {
+              iconName = focused ? "briefcase-sharp" : "briefcase-outline";
             }
 
             return <Ionicons name={iconName} size={size} color={color} />;
@@ -56,8 +60,8 @@ export default function MainContainer() {
         <Tab.Screen name={homeName} component={HomeScreen} />
         {/* <Tab.Screen name={detailsName} component={DetailsScreen} /> */}
         <Tab.Screen name={eventsName} component={EventsScreen} />
+        <Tab.Screen name={jobsName} component={JobsScreen} />
         <Tab.Screen name={settingsName} component={SettingsScreen} />
-
       </Tab.Navigator>
     </NavigationContainer>
   );

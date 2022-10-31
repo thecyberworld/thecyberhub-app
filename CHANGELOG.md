@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.4.0...v1.5.0) (2022-10-31)
+
+
+### Features
+
+* settings page ([#40](https://github.com/thecyberworld/thecyberhub-app/issues/40)) ([5fe74a8](https://github.com/thecyberworld/thecyberhub-app/commit/5fe74a85709d35d4290e7d1deb7f2e121eeb58fb))
+
+
+
 # [1.4.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.3.0...v1.4.0) (2022-10-31)
 
 
@@ -40,16 +49,6 @@
 ### Features
 
 * upgrade @react-navigation/stack from 5.14.9 to 6.3.1 ([#36](https://github.com/thecyberworld/thecyberhub-app/issues/36)) ([c213deb](https://github.com/thecyberworld/thecyberhub-app/commit/c213debace399751eefa52bf3b6227606ec98432))
-
-
-
-## [1.0.1](https://github.com/thecyberworld/thecyberhub-app/compare/1010bd78383e8c944896b3d1edca6b3110bdd314...v1.0.1) (2022-10-19)
-
-
-### Bug Fixes
-
-* @xmldom/xmldom from 0.7.5 to 0.7.6 ([#23](https://github.com/thecyberworld/thecyberhub-app/issues/23)) ([9256a69](https://github.com/thecyberworld/thecyberhub-app/commit/9256a6959da51cd42423ffec102583dd659d1fca))
-* package.json & package-lock.json to reduce vulnerabilities ([#24](https://github.com/thecyberworld/thecyberhub-app/issues/24)) ([1010bd7](https://github.com/thecyberworld/thecyberhub-app/commit/1010bd78383e8c944896b3d1edca6b3110bdd314))
 
 
 

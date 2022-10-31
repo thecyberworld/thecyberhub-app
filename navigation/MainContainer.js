@@ -27,6 +27,7 @@ export default function MainContainer() {
       <Tab.Navigator
         intialRouteName={homeName}
         screenOptions={({ route }) => ({
+          
           tabBarIcon: ({ focused, color, size }) => {
             let iconName;
             let rn = route.name;
@@ -61,6 +62,7 @@ export default function MainContainer() {
             padding: 10,
             height: 70,
           },
+          
         }}
       >
         <Tab.Screen name={homeName} component={HomeScreen} />

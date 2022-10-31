@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.3.0...v1.4.0) (2022-10-31)
+
+
+### Features
+
+* upgrade @react-navigation/native from 5.9.8 to 6.0.13 ([#41](https://github.com/thecyberworld/thecyberhub-app/issues/41)) ([b661f76](https://github.com/thecyberworld/thecyberhub-app/commit/b661f7666e5a5377a4664bb7bc96a50167614131))
+
+
+
 # [1.3.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.2.0...v1.3.0) (2022-10-28)
 
 

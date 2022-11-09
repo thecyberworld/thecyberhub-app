@@ -1,3 +1,12 @@
+## [1.5.3](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.2...v1.5.3) (2022-11-09)
+
+
+### Bug Fixes
+
+* upgrade react-native-screens from 3.17.0 to 3.18.2 ([#45](https://github.com/thecyberworld/thecyberhub-app/issues/45)) ([e6c300b](https://github.com/thecyberworld/thecyberhub-app/commit/e6c300b80a4bb1890b032716de24d61b7ad65c18))
+
+
+
 ## [1.5.2](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.1...v1.5.2) (2022-11-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * upgrade @react-navigation/native from 5.9.8 to 6.0.13 ([#41](https://github.com/thecyberworld/thecyberhub-app/issues/41)) ([b661f76](https://github.com/thecyberworld/thecyberhub-app/commit/b661f7666e5a5377a4664bb7bc96a50167614131))
-
-
-
-# [1.3.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.2.0...v1.3.0) (2022-10-28)
-
-
-### Features
-
-* upgrade @react-navigation/stack from 5.14.9 to 6.3.2 ([#39](https://github.com/thecyberworld/thecyberhub-app/issues/39)) ([6efa219](https://github.com/thecyberworld/thecyberhub-app/commit/6efa219160632a9d409eae4b40f48f3b8c232907))
 
 
 

@@ -1,3 +1,12 @@
+## [1.5.4](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.3...v1.5.4) (2022-11-10)
+
+
+### Bug Fixes
+
+* upgrade expo from 46.0.14 to 46.0.16 ([#46](https://github.com/thecyberworld/thecyberhub-app/issues/46)) ([9eaf8c6](https://github.com/thecyberworld/thecyberhub-app/commit/9eaf8c66173fd58523327fe9e95f166cfb60e590))
+
+
+
 ## [1.5.3](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.2...v1.5.3) (2022-11-09)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * settings page ([#40](https://github.com/thecyberworld/thecyberhub-app/issues/40)) ([5fe74a8](https://github.com/thecyberworld/thecyberhub-app/commit/5fe74a85709d35d4290e7d1deb7f2e121eeb58fb))
-
-
-
-# [1.4.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.3.0...v1.4.0) (2022-10-31)
-
-
-### Features
-
-* upgrade @react-navigation/native from 5.9.8 to 6.0.13 ([#41](https://github.com/thecyberworld/thecyberhub-app/issues/41)) ([b661f76](https://github.com/thecyberworld/thecyberhub-app/commit/b661f7666e5a5377a4664bb7bc96a50167614131))
 
 
 

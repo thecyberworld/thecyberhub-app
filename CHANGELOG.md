@@ -1,3 +1,12 @@
+## [1.5.5](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.4...v1.5.5) (2022-11-11)
+
+
+### Bug Fixes
+
+* upgrade @types/react-native from 0.70.4 to 0.70.6 ([#47](https://github.com/thecyberworld/thecyberhub-app/issues/47)) ([565cb1d](https://github.com/thecyberworld/thecyberhub-app/commit/565cb1d5434078634407b39997c99c93007cf405))
+
+
+
 ## [1.5.4](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.3...v1.5.4) (2022-11-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade react-native from 0.69.6 to 0.70.2 ([#43](https://github.com/thecyberworld/thecyberhub-app/issues/43)) ([171d9e2](https://github.com/thecyberworld/thecyberhub-app/commit/171d9e26d434288e8ef87bd4c54da8fa403ac70b))
-
-
-
-# [1.5.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.4.0...v1.5.0) (2022-10-31)
-
-
-### Features
-
-* settings page ([#40](https://github.com/thecyberworld/thecyberhub-app/issues/40)) ([5fe74a8](https://github.com/thecyberworld/thecyberhub-app/commit/5fe74a85709d35d4290e7d1deb7f2e121eeb58fb))
 
 
 

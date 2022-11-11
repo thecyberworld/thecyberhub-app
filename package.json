@@ -15,7 +15,7 @@
     "@react-navigation/native": "^6.0.13",
     "@react-navigation/stack": "^6.3.2",
     "@types/react": "^18.0.21",
-    "@types/react-native": "^0.70.4",
+    "@types/react-native": "^0.70.6",
     "expo": "~46.0.16",
     "expo-av": "~12.0.4",
     "expo-fast-image": "^1.1.3",

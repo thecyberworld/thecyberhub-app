@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.6...v1.6.0) (2022-12-29)
+
+
+### Features
+
+* upgrade expo-file-system from 14.1.0 to 15.0.0 ([#49](https://github.com/thecyberworld/thecyberhub-app/issues/49)) ([1bd7079](https://github.com/thecyberworld/thecyberhub-app/commit/1bd7079a24da59f315bcf76d7d490af22e86534c))
+
+
+
 ## [1.5.6](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.5...v1.5.6) (2022-11-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade react-native-screens from 3.17.0 to 3.18.2 ([#45](https://github.com/thecyberworld/thecyberhub-app/issues/45)) ([e6c300b](https://github.com/thecyberworld/thecyberhub-app/commit/e6c300b80a4bb1890b032716de24d61b7ad65c18))
-
-
-
-## [1.5.2](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.1...v1.5.2) (2022-11-08)
-
-
-### Bug Fixes
-
-* upgrade react-native from 0.69.6 to 0.70.3 ([#44](https://github.com/thecyberworld/thecyberhub-app/issues/44)) ([59d8b8c](https://github.com/thecyberworld/thecyberhub-app/commit/59d8b8ce2d693b710ca0ac1a8d94685ccbd55965))
 
 
 

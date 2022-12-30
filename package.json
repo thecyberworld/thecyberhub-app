@@ -31,7 +31,7 @@
     "react-native-screens": "^3.18.2",
     "react-native-vector-icons": "^9.2.0",
     "react-native-web": "^0.18.9",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

@@ -1,3 +1,12 @@
+# [1.7.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.6.1...v1.7.0) (2023-01-03)
+
+
+### Features
+
+* upgrade expo from 46.0.17 to 47.0.8 ([#53](https://github.com/thecyberworld/thecyberhub-app/issues/53)) ([b62cd29](https://github.com/thecyberworld/thecyberhub-app/commit/b62cd29041d2ab0950b7f28a76d442b3d8827e10))
+
+
+
 ## [1.6.1](https://github.com/thecyberworld/thecyberhub-app/compare/v1.6.0...v1.6.1) (2023-01-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade @types/react-native from 0.70.4 to 0.70.6 ([#47](https://github.com/thecyberworld/thecyberhub-app/issues/47)) ([565cb1d](https://github.com/thecyberworld/thecyberhub-app/commit/565cb1d5434078634407b39997c99c93007cf405))
-
-
-
-## [1.5.4](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.3...v1.5.4) (2022-11-10)
-
-
-### Bug Fixes
-
-* upgrade expo from 46.0.14 to 46.0.16 ([#46](https://github.com/thecyberworld/thecyberhub-app/issues/46)) ([9eaf8c6](https://github.com/thecyberworld/thecyberhub-app/commit/9eaf8c66173fd58523327fe9e95f166cfb60e590))
 
 
 

@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.0...v1.7.1) (2023-01-04)
+
+
+### Bug Fixes
+
+* upgrade @types/react from 18.0.21 to 18.0.26 ([#54](https://github.com/thecyberworld/thecyberhub-app/issues/54)) ([6834d3b](https://github.com/thecyberworld/thecyberhub-app/commit/6834d3b75bfa3e0710cba1c12d21005bf11a8944))
+
+
+
 # [1.7.0](https://github.com/thecyberworld/thecyberhub-app/compare/v1.6.1...v1.7.0) (2023-01-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade react-native-gesture-handler from 2.6.2 to 2.8.0 ([#48](https://github.com/thecyberworld/thecyberhub-app/issues/48)) ([d83cddc](https://github.com/thecyberworld/thecyberhub-app/commit/d83cddc41573e03662547ed857518ebd9a1c9f72))
-
-
-
-## [1.5.5](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.4...v1.5.5) (2022-11-11)
-
-
-### Bug Fixes
-
-* upgrade @types/react-native from 0.70.4 to 0.70.6 ([#47](https://github.com/thecyberworld/thecyberhub-app/issues/47)) ([565cb1d](https://github.com/thecyberworld/thecyberhub-app/commit/565cb1d5434078634407b39997c99c93007cf405))
 
 
 

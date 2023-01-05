@@ -1,3 +1,12 @@
+## [1.7.2](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.1...v1.7.2) (2023-01-05)
+
+
+### Bug Fixes
+
+* package.json & package-lock.json to reduce vulnerabilities ([#55](https://github.com/thecyberworld/thecyberhub-app/issues/55)) ([70e0427](https://github.com/thecyberworld/thecyberhub-app/commit/70e0427d046fab31b83b9749aced2e8afeb95c94))
+
+
+
 ## [1.7.1](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.0...v1.7.1) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * upgrade expo-file-system from 14.1.0 to 15.0.0 ([#49](https://github.com/thecyberworld/thecyberhub-app/issues/49)) ([1bd7079](https://github.com/thecyberworld/thecyberhub-app/commit/1bd7079a24da59f315bcf76d7d490af22e86534c))
-
-
-
-## [1.5.6](https://github.com/thecyberworld/thecyberhub-app/compare/v1.5.5...v1.5.6) (2022-11-13)
-
-
-### Bug Fixes
-
-* upgrade react-native-gesture-handler from 2.6.2 to 2.8.0 ([#48](https://github.com/thecyberworld/thecyberhub-app/issues/48)) ([d83cddc](https://github.com/thecyberworld/thecyberhub-app/commit/d83cddc41573e03662547ed857518ebd9a1c9f72))
 
 
 

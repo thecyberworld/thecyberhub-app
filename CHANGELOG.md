@@ -1,3 +1,12 @@
+## [1.7.7](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.6...v1.7.7) (2023-01-11)
+
+
+### Bug Fixes
+
+* upgrade @react-navigation/bottom-tabs from 6.5.0 to 6.5.2 ([#61](https://github.com/thecyberworld/thecyberhub-app/issues/61)) ([f4b9855](https://github.com/thecyberworld/thecyberhub-app/commit/f4b9855857fb53a95c06b8238a2fe53f244664f3))
+
+
+
 ## [1.7.6](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.5...v1.7.6) (2023-01-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade react-native-reanimated from 2.10.0 to 2.13.0 ([#57](https://github.com/thecyberworld/thecyberhub-app/issues/57)) ([e0d0b0b](https://github.com/thecyberworld/thecyberhub-app/commit/e0d0b0b72eba24f795523dd309d2c96810bc049d))
-
-
-
-## [1.7.2](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.1...v1.7.2) (2023-01-05)
-
-
-### Bug Fixes
-
-* package.json & package-lock.json to reduce vulnerabilities ([#55](https://github.com/thecyberworld/thecyberhub-app/issues/55)) ([70e0427](https://github.com/thecyberworld/thecyberhub-app/commit/70e0427d046fab31b83b9749aced2e8afeb95c94))
 
 
 

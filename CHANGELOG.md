@@ -1,3 +1,12 @@
+## [1.7.8](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.7...v1.7.8) (2023-01-12)
+
+
+### Bug Fixes
+
+* upgrade expo-linking from 3.2.2 to 3.3.0 ([#62](https://github.com/thecyberworld/thecyberhub-app/issues/62)) ([9985826](https://github.com/thecyberworld/thecyberhub-app/commit/99858265ffeff95ba7f7870e22202515c6dff4b5))
+
+
+
 ## [1.7.7](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.6...v1.7.7) (2023-01-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade react-native from 0.70.3 to 0.70.6 ([#58](https://github.com/thecyberworld/thecyberhub-app/issues/58)) ([3b52d51](https://github.com/thecyberworld/thecyberhub-app/commit/3b52d5133d1fb38683adf1d1ea28827f611645a5))
-
-
-
-## [1.7.3](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.2...v1.7.3) (2023-01-06)
-
-
-### Bug Fixes
-
-* upgrade react-native-reanimated from 2.10.0 to 2.13.0 ([#57](https://github.com/thecyberworld/thecyberhub-app/issues/57)) ([e0d0b0b](https://github.com/thecyberworld/thecyberhub-app/commit/e0d0b0b72eba24f795523dd309d2c96810bc049d))
 
 
 

@@ -1,3 +1,12 @@
+## [1.7.9](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.8...v1.7.9) (2023-01-13)
+
+
+### Bug Fixes
+
+* upgrade expo-status-bar from 1.4.0 to 1.4.2 ([#63](https://github.com/thecyberworld/thecyberhub-app/issues/63)) ([c2b30a9](https://github.com/thecyberworld/thecyberhub-app/commit/c2b30a967681fe11f226373ca8a4c4a12d5d3d38))
+
+
+
 ## [1.7.8](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.7...v1.7.8) (2023-01-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade @react-navigation/stack from 6.3.8 to 6.3.10 ([#59](https://github.com/thecyberworld/thecyberhub-app/issues/59)) ([c641bea](https://github.com/thecyberworld/thecyberhub-app/commit/c641beaf4024ba64fdda7e7a3b4a25a6608e36af))
-
-
-
-## [1.7.4](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.3...v1.7.4) (2023-01-07)
-
-
-### Bug Fixes
-
-* upgrade react-native from 0.70.3 to 0.70.6 ([#58](https://github.com/thecyberworld/thecyberhub-app/issues/58)) ([3b52d51](https://github.com/thecyberworld/thecyberhub-app/commit/3b52d5133d1fb38683adf1d1ea28827f611645a5))
 
 
 

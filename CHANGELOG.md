@@ -1,3 +1,12 @@
+## [1.7.10](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.9...v1.7.10) (2023-10-07)
+
+
+### Bug Fixes
+
+* package.json to reduce vulnerabilities ([#70](https://github.com/thecyberworld/thecyberhub-app/issues/70)) ([df121a8](https://github.com/thecyberworld/thecyberhub-app/commit/df121a8ce10cdd9d36f07903c9b332b52b92511e))
+
+
+
 ## [1.7.9](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.8...v1.7.9) (2023-01-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade @expo/dev-tools from 0.13.171 to 0.13.173 ([#60](https://github.com/thecyberworld/thecyberhub-app/issues/60)) ([a410e21](https://github.com/thecyberworld/thecyberhub-app/commit/a410e2132d1d0ddeaec81d3a3ba6b3311a257b23))
-
-
-
-## [1.7.5](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.4...v1.7.5) (2023-01-08)
-
-
-### Bug Fixes
-
-* upgrade @react-navigation/stack from 6.3.8 to 6.3.10 ([#59](https://github.com/thecyberworld/thecyberhub-app/issues/59)) ([c641bea](https://github.com/thecyberworld/thecyberhub-app/commit/c641beaf4024ba64fdda7e7a3b4a25a6608e36af))
 
 
 

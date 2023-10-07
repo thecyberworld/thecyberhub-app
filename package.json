@@ -1,6 +1,6 @@
 {
   "name": "thecyberhub-app",
-  "version": "1.7.9",
+  "version": "1.7.11",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -16,11 +16,11 @@
     "@react-navigation/stack": "^6.3.10",
     "@types/react": "^18.0.26",
     "@types/react-native": "^0.70.6",
-    "expo": "~47.0.11",
+    "expo": "~49.0.0",
     "expo-av": "~12.0.4",
     "expo-fast-image": "^1.1.3",
     "expo-file-system": "~15.1.1",
-    "expo-linking": "^3.3.0",
+    "expo-linking": "^5.0.0",
     "expo-status-bar": "~1.4.2",
     "react": "18.2.0",
     "react-dom": "^18.2.0",

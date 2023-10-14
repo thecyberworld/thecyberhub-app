@@ -1,9 +1,9 @@
 import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import { jobCardStyles as styles } from "./styles";
-import Fa5Icons from "react-native-vector-icons/FontAwesome5";
-import FaIcons from "react-native-vector-icons/FontAwesome";
-import MaterialIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import Fa5Icons from "@expo/vector-icons/FontAwesome5";
+import FaIcons from "@expo/vector-icons/FontAwesome";
+import MaterialIcons from "@expo/vector-icons/MaterialCommunityIcons";
 
 // component props
 type Props = {
@@ -24,6 +24,7 @@ type Props = {
     datePosted: string;
     directory: string;
   };
+  keyChild: string
 };
 
 const JobsCard = ({
@@ -35,6 +36,7 @@ const JobsCard = ({
   jobDetails,
   jobReq,
   jobTimeline,
+  keyChild,
 }: Props) => {
   return (
     <View style={styles.container}>
@@ -65,11 +67,12 @@ const JobsCard = ({
         {jobDetails.map((item) => (
           <View
             style={styles.jobDetailsContainer}
+            key={`${keyChild} + ${Math.random() *100}`}
           >
             {item.map((data) => (
-              <Text style={styles.jobDetailsTag}>
+              <Text style={styles.jobDetailsTag} key={keyChild+data.type}>
                 <MaterialIcons
-                  name={data.label}
+                  name={data.type as keyof typeof MaterialIcons.glyphMap}
                   size={15}
                   color={data.status === "priority" ? "orange" : undefined}
                 />

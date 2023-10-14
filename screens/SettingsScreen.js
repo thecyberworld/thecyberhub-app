@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, ScrollView, TouchableOpacity, Pressable } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import Icon from '@expo/vector-icons/MaterialCommunityIcons';
 
 export default function SettingsScreen({ navigation }) {
     const header = () => {

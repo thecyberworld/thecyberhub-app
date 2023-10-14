@@ -4,7 +4,6 @@ import * as Typography from "../../styles/typography";
 import styles from "../EventsScreenStyles";
 import { DATA } from "./CourseData";
 //@ts-ignore
-import ExpoFastImage from "expo-fast-image";
 import { readBuilderProgram } from "typescript";
 import * as Linking from "expo-linking";
 
@@ -68,7 +67,7 @@ const Item = ({ data }) => (
               Linking.openURL(data.videoLink);
             }}
             >
-          <ExpoFastImage
+          <Image
             style={{ maxWidth: "100%", height: 200, borderRadius: 10 }}
             source={{ uri: data.YTChannelImageLink }}
           />
@@ -128,12 +127,12 @@ const Item = ({ data }) => (
               Linking.openURL(data.channelLink);
             }}
             >
-                   <ExpoFastImage
-            style={{ width: 50, height: 50, borderRadius: 25 }}
-            source={{ uri: data.channelLogo }}
-            
-          />
-</TouchableHighlight>
+              <Image
+                style={{ width: 50, height: 50, borderRadius: 25 }}
+                source={{ uri: data.channelLogo }}
+                
+              />
+            </TouchableHighlight>
 
           <View style={{ marginLeft: 10 }}>
             <Text

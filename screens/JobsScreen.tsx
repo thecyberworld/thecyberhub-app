@@ -23,6 +23,8 @@ const JobsScreen = () => {
                   jobDetails={entry.jobDetails}
                   jobReq={entry.jobReq}
                   jobTimeline={entry.jobTimeline}
+                  key={entry.id}
+                  keyChild={entry.id}
                 />
               ))
             : null}

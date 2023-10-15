@@ -1,6 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import Ionicons from '@expo/vector-icons/Ionicons';
 import Colors from '../styles/colors';
 // Screens
 import HomeScreen from '../screens/HomeScreen';
@@ -29,7 +29,6 @@ export default function MainContainer() {
       <Tab.Navigator
         intialRouteName={homeName}
         screenOptions={({ route }) => ({
-          
           tabBarIcon: ({ focused, color, size }) => {
             let iconName;
             let rn = route.name;
@@ -56,18 +55,18 @@ export default function MainContainer() {
             }
             return <Ionicons name={iconName} size={size} color={color} />;
           },
-        })}
-        tabBarOptions={{
-          activeTintColor: Colors.primary,
-          inactiveTintColor: Colors.primaryLightest,
-          labelStyle: { paddingBottom: 10, fontSize: 10 },
-          style: {
+          headerShown: false,
+          tabBarActiveTintColor: Colors.primary,
+          tabBarInactiveTintColor: Colors.primaryLightest,
+          tabBarStyle: {
             backgroundColor: Colors.greyDarkest,
             padding: 10,
             height: 70,
           },
-          
-        }}
+          tabBarLabelStyle:{
+            padding: 10,
+          }
+        })}
       >
         <Tab.Screen name={homeName} component={HomeScreen} />
         {/* <Tab.Screen name={detailsName} component={DetailsScreen} /> */}

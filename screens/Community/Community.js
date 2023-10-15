@@ -8,9 +8,9 @@ import {
 } from "react-native";
 import React, { useRef, useState } from "react";
 //@ts-ignore
-import Icon from "react-native-vector-icons/Fontisto"; //@ts-ignore
-import Icons from "react-native-vector-icons/Feather";
-import Iconn from 'react-native-vector-icons/EvilIcons'
+import Icon from "@expo/vector-icons/Fontisto"; //@ts-ignore
+import Icons from "@expo/vector-icons/Feather";
+import Iconn from '@expo/vector-icons/EvilIcons'
 import * as Linking from "expo-linking";
 
 

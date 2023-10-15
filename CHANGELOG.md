@@ -1,3 +1,12 @@
+## [1.7.13](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.12...v1.7.13) (2023-10-15)
+
+
+### Bug Fixes
+
+* minor bugs ([#76](https://github.com/thecyberworld/thecyberhub-app/issues/76)) ([2cdf114](https://github.com/thecyberworld/thecyberhub-app/commit/2cdf114d5440e664db300ad36cd9ce9ede66643b))
+
+
+
 ## [1.7.12](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.11...v1.7.12) (2023-10-07)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * upgrade expo-status-bar from 1.4.0 to 1.4.2 ([#63](https://github.com/thecyberworld/thecyberhub-app/issues/63)) ([c2b30a9](https://github.com/thecyberworld/thecyberhub-app/commit/c2b30a967681fe11f226373ca8a4c4a12d5d3d38))
-
-
-
-## [1.7.8](https://github.com/thecyberworld/thecyberhub-app/compare/v1.7.7...v1.7.8) (2023-01-12)
-
-
-### Bug Fixes
-
-* upgrade expo-linking from 3.2.2 to 3.3.0 ([#62](https://github.com/thecyberworld/thecyberhub-app/issues/62)) ([9985826](https://github.com/thecyberworld/thecyberhub-app/commit/99858265ffeff95ba7f7870e22202515c6dff4b5))
 
 
 

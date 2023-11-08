@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import MainContainer from './navigation/MainContainer';
+import MainContainer from "./navigation/MainContainer";
 
 const App = () => {
-  return <MainContainer />;
+    return <MainContainer />;
 };
 
 export default App;

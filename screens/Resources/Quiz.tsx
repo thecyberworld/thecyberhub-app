@@ -1,4 +1,6 @@
+import GoBackButton from "./GoBackButton";
+
 const Quiz = () => {
-    return <></>;
+    return <GoBackButton />;
 };
 export default Quiz;

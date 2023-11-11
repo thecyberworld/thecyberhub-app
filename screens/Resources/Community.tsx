@@ -5,6 +5,8 @@ import * as Linking from "expo-linking";
 import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 
+import GoBackButton from "./GoBackButton";
+
 const Community = () => {
     const header = () => {
         return (
@@ -22,8 +24,8 @@ const Community = () => {
                 backgroundColor: "#181818",
             }}
         >
+            <GoBackButton />
             {header()}
-
             <Image
                 style={{
                     flex: 1,
@@ -122,7 +124,6 @@ const Community = () => {
                     />
                 </View>
             </View>
-
             <View
                 style={{
                     padding: 35,

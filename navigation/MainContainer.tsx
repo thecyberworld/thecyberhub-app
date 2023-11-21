@@ -4,7 +4,8 @@ import { NavigationContainer } from "@react-navigation/native";
 
 // Screens
 // import DetailsScreen from '../screens/DetailsScreen';
-import Community from "../screens/Community/Community";
+// import Community from "../screens/Resources/Community";
+import ResourcesNav from "./ResourcesNav";
 import CourseScreen from "../screens/Courses/Coursescreen";
 import EventsScreen from "../screens/EventsScreen";
 import HomeScreen from "../screens/HomeScreen";
@@ -13,17 +14,20 @@ import SettingsScreen from "../screens/SettingsScreen";
 import Colors from "../styles/colors";
 
 //Screen names
-const homeName = "Home";
-// const detailsName = 'Details';
-const eventsName = "Events";
-const settingsName = "Settings";
-const jobsName = "Jobs";
-const courseName = "Courses";
-const community = "Community";
+const screenNames = {
+    homeName: "Home",
+    detailsName: "Details",
+    eventsName: "Events",
+    settingsName: "Settings",
+    jobsName: "Jobs",
+    courseName: "Courses",
+    resources: "Resources",
+};
 
 const Tab = createBottomTabNavigator();
 
 export default function MainContainer() {
+    const { homeName, eventsName, settingsName, detailsName, jobsName, courseName, resources } = screenNames;
     return (
         <NavigationContainer>
             <Tab.Navigator
@@ -32,23 +36,28 @@ export default function MainContainer() {
                     tabBarIcon: ({ focused, color, size }) => {
                         let iconName;
                         const rn = route.name;
-
-                        if (rn === homeName) {
-                            iconName = focused ? "home" : "home-outline";
-                        }
-                        // else if (rn === detailsName) {
-                        //   iconName = focused ? 'list' : 'list-outline';
-                        // }
-                        else if (rn === eventsName) {
-                            iconName = focused ? "list" : "list-outline";
-                        } else if (rn === settingsName) {
-                            iconName = focused ? "settings" : "settings-outline";
-                        } else if (rn === jobsName) {
-                            iconName = focused ? "briefcase-sharp" : "briefcase-outline";
-                        } else if (rn === courseName) {
-                            iconName = focused ? "library" : "library-outline";
-                        } else if (rn === community) {
-                            iconName = focused ? "people" : "people-outline";
+                        switch (rn) {
+                            case homeName:
+                                iconName = focused ? "home" : "home-outline";
+                                break;
+                            case detailsName:
+                                iconName = focused ? "list" : "list-outline";
+                                break;
+                            case eventsName:
+                                iconName = focused ? "list" : "list-outline";
+                                break;
+                            case settingsName:
+                                iconName = focused ? "settings" : "settings-outline";
+                                break;
+                            case jobsName:
+                                iconName = focused ? "briefcase-sharp" : "briefcase-outline";
+                                break;
+                            case courseName:
+                                iconName = focused ? "library" : "library-outline";
+                                break;
+                            case resources:
+                                iconName = focused ? "folder" : "folder-outline";
+                                break;
                         }
                         return <Ionicons name={iconName} size={size} color={color} />;
                     },
@@ -70,7 +79,7 @@ export default function MainContainer() {
                 <Tab.Screen name={eventsName} component={EventsScreen} />
                 <Tab.Screen name={jobsName} component={JobsScreen} />
                 <Tab.Screen name={courseName} component={CourseScreen} />
-                <Tab.Screen name={community} component={Community} />
+                <Tab.Screen name={resources} component={ResourcesNav} />
                 <Tab.Screen name={settingsName} component={SettingsScreen} />
             </Tab.Navigator>
         </NavigationContainer>

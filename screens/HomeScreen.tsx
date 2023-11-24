@@ -1,6 +1,6 @@
-import { Video } from "expo-av";
 import { Alert, View, Text, TouchableOpacity } from "react-native";
 
+import VideoDisplay from "../components/VideoDisplay";
 import Colors from "../styles/colors";
 import * as Spacing from "../styles/spacing";
 import * as Typography from "../styles/typography";
@@ -8,17 +8,9 @@ import * as Typography from "../styles/typography";
 export default function HomeScreen({ navigation }) {
     return (
         <>
-            <Video
-                style={{
-                    flex: 1,
-                    position: "relative",
-                }}
-                source={{ uri: "https://imgur.com/Q8km3ih.mp4" }}
-                shouldPlay={true}
-                isLooping={true}
-                isMuted={true}
-                resizeMode="cover"
-                usePoster={true}
+            <VideoDisplay
+                requiredBgImage={require("../assets/temp-bg.png")}
+                videoUri={{ uri: "https://imgur.com/Q8km3ih.mp4" }}
             />
             <View
                 style={{

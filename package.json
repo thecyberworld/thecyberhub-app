@@ -20,7 +20,7 @@
     "@react-navigation/stack": "^6.3.10",
     "@types/react": "~18.2.14",
     "@types/react-native": "^0.70.6",
-    "expo": "~49.0.0",
+    "expo": "~50.0.0",
     "expo-av": "~13.4.1",
     "expo-file-system": "~15.4.5",
     "expo-linking": "^5.0.0",
